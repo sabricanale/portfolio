@@ -1,0 +1,67 @@
+@import url(animate.css);
+
+nav, h1, h5{
+    font-family: "Poppins";
+}
+
+p{
+    font-family: "Quicksand";
+}
+
+#ImagenEdit {
+    border-radius: 15rem;  
+    margin: auto;
+}
+
+.colorNombre {
+    color: #f4c2a1;
+}
+
+.efecto {
+    position: relative;
+    background: white;
+    overflow: hidden;
+    transition: .5s;
+    margin: auto;
+    cursor: pointer; }
+  
+  .efecto:hover {
+    box-shadow: 0 5px 15px #999b85;
+    transform: translateY(-15px); }
+
+.Cursiva {
+    font-family: "Dancing Script";
+}
+
+h1{
+    font-weight:500;
+}
+
+.Seccion2{
+    background-color: #faddca;
+    
+}
+
+#iconos i {
+    font-size: 20px;
+    padding: 0 8px;
+    text-decoration: none;
+    color: #faddca; }
+    #iconos i:hover {
+      color: black; }
+#inicio {
+    text-align: end;
+}
+
+@media (max-width: 616px) {
+    #inicio{
+        text-align: start;
+    }
+    #texto2{
+        text-align: center;
+    }
+    .Seccion2{
+        padding: 20px;
+        margin-left: 10px;
+    }
+}
